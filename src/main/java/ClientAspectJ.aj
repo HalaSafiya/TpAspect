@@ -17,6 +17,5 @@ public aspect ClientAspectJ{
         proceed(client);
         logger.info("Solde apres"+client.getCp().getSolde()+" ");
         logger.info("Le temps d'execution de l'operation est: "+(((System.nanoTime()) - start)/1000000));
-
     }
 }
